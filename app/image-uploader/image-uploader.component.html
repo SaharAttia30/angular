@@ -1,0 +1,4 @@
+<input type="file" (change)="onFileSelected($event)" onchange="loadFile(event)">
+<button (click)="onUpload()">Upload</button>
+<br>
+<label *ngIf="result">{{ result }}</label>
